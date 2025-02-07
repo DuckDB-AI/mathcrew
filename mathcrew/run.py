@@ -55,7 +55,7 @@ class MathCrew:
     def __init__(self):
         self.tool = CalculatorTool()
         model_client = OpenAIChatCompletionClient(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             api_key=os.getenv("OPENAI_API_KEY")
         )
         # Create the assistant agent with the calculator tool.
