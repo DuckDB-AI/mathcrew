@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mathcrew"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+python-dotenv = "^1.0.1"
+naptha_sdk = { path = "/Users/vedantpadwal/Naptha/autogen" }
+autogen-core = "^0.4.5"
+autogen-agentchat = "^0.4.5"
+autogen-ext = "^0.4.5"
+tiktoken = "^0.8.0"
+openai = "^1.61.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
